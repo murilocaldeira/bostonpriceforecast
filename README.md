@@ -1,9 +1,11 @@
 ﻿Este é um Data App utilizado para exibir a solução de Machine Learning para o problema de predição de valores de imóveis de Boston.
 
 Com base no seguinte dataset, que mostra o valor de imóveis da cidade de boston: 
-# carrega o dataset de london
+
 from sklearn.datasets import load_boston
+
 boston = load_boston()
+
 
 Foi analisado o dataset e excluidas as colunas com alta correlação entre si e sem relação com a variável alvo, as colunas com alta ocorrencia de valores faltantes assim como os 16 maiores valores de imóveis (outliers)
 
