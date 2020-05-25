@@ -7,23 +7,28 @@ from sklearn.datasets import load_boston
 boston = load_boston()
 
 
-Foi analisado o dataset e excluidas as colunas com alta correlação entre si e sem relação com a variável alvo, as colunas com alta ocorrencia de valores faltantes assim como os 16 maiores valores de imóveis (outliers)
+Foi analisado o dataset e excluídas as colunas com alta correlação entre si e sem relação com a variável alvo, as colunas com alta ocorrência de valores faltantes assim como os 16 maiores valores de imóveis (outliers)
 
-Após isso, para predição foi criado um base line com base no número de quartos (RM) devido a alta correlação com a variavel alvo e testados mais 3 métodos de machine learning, comparando o coeficiente de Pearson com os valores reais da base. 
+Após isso, para predição foi criado um base line com base no número de quartos (RM) devido a alta correlação com a variável alvo e testados mais 3 métodos de machine learning, comparando o coeficiente de Pearson com os valores reais da base. 
 
-Algoritimos testados:
+Algoritmos testados:
+
 Regressão Linear
-Arvore de decisão
+
+Árvore de Decisão
+
 Random Forest
 
-Utilizado então o Random Forest para realizar a predição, pois foi o algorítimo mais preciso.
+Utilizado então o Random Forest para realizar a predição, pois foi o algorítmo mais preciso.
 
 Nesta solução está o DATASET dentro da pasta model. 
 
 Para executar, após clonar os arquivos: 
 
 1 - Instalar Python 3.8 e o pip
+
 2 - pip install -r requirements.txt
+
 3 - streamlit run app.py
 
 
