@@ -19,7 +19,7 @@ Regressão Linear
 
 Random Forest
 
-Utilizado então o Random Forest para realizar a predição, pois foi o algorítmo mais preciso.
+Utilizado então o Random Forest para realizar a predição, pois foi o algoritmo mais preciso.
 
 Nesta solução está o DATASET dentro da pasta model. 
 
