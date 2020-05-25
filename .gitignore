@@ -1,0 +1,5 @@
+.vscode/
+.streamlit/
+.gitlab-ci.yml
+Procfile
+setup.sh
