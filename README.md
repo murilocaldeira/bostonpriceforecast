@@ -9,7 +9,7 @@ boston = load_boston()
 
 Foi analisado o dataset e excluídas as colunas com alta correlação entre si e sem relação com a variável alvo, as colunas com alta ocorrência de valores faltantes assim como os 16 maiores valores de imóveis (outliers)
 
-Após isso, para predição foi criado um base line com base no número de quartos (RM) devido a alta correlação com a variável alvo e testados mais 3 métodos de machine learning, comparando o coeficiente de Pearson com os valores reais da base. 
+Após isso, para predição foi criado um base line com base no número de quartos (RM) devido a alta correlação com a variável alvo e testados mais 3 métodos de machine learning, utilizando a métrica RMSE com os valores reais da base. 
 
 Algoritmos testados:
 
